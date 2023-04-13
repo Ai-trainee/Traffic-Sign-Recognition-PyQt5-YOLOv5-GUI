@@ -1,4 +1,9 @@
-# 基于YOLOv5的道路标志识别项目（yolov5界面GUI）
+<h1 align="center">基于YOLOv5的道路标志识别项目（yolov5界面GUI）</h1>
+<p align="center">
+  <a href="README_en.md">English</a> |
+  <a href="README.md">简体中文</a>
+</p>
+
 
 这是一个关于yolov5的道路标志识别项目，使用Pyqt5开发界面，Yolov5训练模型，数据库Mysql，包含五个模块：初始化参数、标志识别、数据库、数据分析和图像处理。
 
