@@ -1,7 +1,7 @@
 <h1 align="center">基于YOLOv5的道路标志识别项目（yolov5界面GUI）</h1>
 <p align="center">
-  <a href="README_en.md">English</a> |
-  <a href="README.md">简体中文</a>
+  <a href="README.md">English</a> |
+  <a href="README_cn.md">简体中文</a>
 </p>
 
 
