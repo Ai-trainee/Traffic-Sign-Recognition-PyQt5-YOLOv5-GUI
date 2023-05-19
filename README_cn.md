@@ -31,6 +31,21 @@
 
 * ### 初始化参数模块
   ![img_2.png](img_2.png)
+  ### 1.3 初始化参数参数表
+
+  参数 | 功能与设置
+  --- | ---
+  `--show result` | 控制检测结果图像的显示，默认开启
+  `--save croped` | 将检测到的目标剪裁并保存
+  `--file automaticlly` | 每次检测完新建一个保存文件
+  `--half` | 开启半精度推理，可以有效提高模型推理速度，但是会损失模型精度
+  `--class-afnostic NMS` | 启用类别抑制的NMS（最大值抑制）；”参数增强”
+  `--hidden tag` | 隐藏标签
+  `--hidden conf` | 隐藏置信度
+  `--device choose` | 选择推理设备GPU/CPU，设备需支持多GPU
+  `--input image size` | 调整输入图像尺寸
+  `--thickness` | 调整标签粗细程度，默认为3
+
 * ### 数据库模块
   ![img_3.png](img_3.png)
   
