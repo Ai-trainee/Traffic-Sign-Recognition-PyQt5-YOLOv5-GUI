@@ -1,7 +1,12 @@
 <h1 align="center">Road Sign Recognition Project Based on YOLOv5 (YOLOv5 GUI)</h1>
+
 <p align="center">
   <a href="README.md">English</a> |
   <a href="README_cn.md">简体中文</a>
+</p>
+
+<p align="center">
+  <a href="README_Parameter adjustment.md">训练策略</a>
 </p>
 
 
