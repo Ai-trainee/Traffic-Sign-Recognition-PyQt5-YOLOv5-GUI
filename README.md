@@ -51,6 +51,7 @@ Run `main.py`.
 - `run-exp52`: Road sign recognition model trained for 300 epochs
 - `tt100k_to_voc-main` folder: JSON to YOLO format converter
 - Dataset: [TT100k : Traffic-Sign Detection and Classification in the Wild](https://cg.cs.tsinghua.edu.cn/traffic-sign/)
+- Database files: in the data folder -regn_mysql.sql
 
 ### Install Dependencies
 
