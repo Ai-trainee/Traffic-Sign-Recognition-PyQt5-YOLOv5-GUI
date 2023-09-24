@@ -60,3 +60,6 @@ pip install -r requirements.txt
 
 - [Converting the TT100K dataset to VOC format and selecting more than 100 images and XMLs for each of the 45 categories using a Python script](https://blog.csdn.net/Hankerchen/article/details/120727299?spm=1001.2014.3001.5502)
 - https://github.com/Javacr/PyQt5-YOLOv5
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Ai-trainee/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI&type=Date)](https://star-history.com/#Ai-trainee/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI&Date)
