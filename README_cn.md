@@ -54,7 +54,7 @@
 - `run-exp52`：300轮训练后的道路标志识别模型
 - `tt100k_to_voc-main`文件夹：json转yolo格式
 - 数据集：[TT100k : Traffic-Sign Detection and Classification in the Wild](https://cg.cs.tsinghua.edu.cn/traffic-sign/)
-
+- 数据库文件：data文件夹下-regn_mysql.sql
 
 ### 安装依赖
 
