@@ -50,7 +50,7 @@ Run `main.py`.
 - `login_ji.py`: Interface login logic file
 - `run/run-exp52`: Road sign recognition model trained for 300 epochs
 - `utils/tt100k_to_voc-main` folder: JSON to YOLO format converter
--  `result`保存一些推理文件，`run`保存训练文件
+-  `result`Save some reasoning files，`run`Save training file
 - Dataset: [TT100k : Traffic-Sign Detection and Classification in the Wild](https://cg.cs.tsinghua.edu.cn/traffic-sign/)
 - Database files: in the `data` folder `-regn_mysql.sql`
 
