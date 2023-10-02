@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f03b60a6-ddde-4a79-8cf9-7033249259c2" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_Parameter adjustment.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/README_Parameter adjustment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_cn.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/README_cn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/icon/停止.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/icon/开始.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/icon/打开.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/icon/摄像头关.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/icon/摄像头开.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/icon/数据探索.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/icon/模.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/icon/模型中心.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/icon/赞停.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/bus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/zidane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/zidane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/img_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/img_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/img_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_win/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_win/main/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_win/main/没有全部添加try前.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_win/ui缓存/win.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_win/ui缓存/win1.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_win/ui缓存/win2.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_win/ui缓存/win3.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_win/ui缓存/win4.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_win/ui缓存/图像处理完成.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_win/ui缓存/图像处理完成.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/1_build_voc_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/1_build_voc_dir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/2_json2xml.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/2_json2xml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/3_delete_jpg_and_xml.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/3_delete_jpg_and_xml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/4_spilt_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/4_spilt_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/5_label.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/5_label.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/Not_TT45_list_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/Not_TT45_list_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/Not_TT45_list_val.txt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/Not_TT45_list_val.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/TT100K_VOC_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/TT100K_VOC_classes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/annotations_all.json" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/annotations_all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt100k_to_voc-main/新建 Internet 快捷方式.url" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tt100k_to_voc-main/新建 Internet 快捷方式.url" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WD2F48ZVWiZitToGltG3S1bWuI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "back-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI\data" />
+      <recent name="D:\Desktop\Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI\doc" />
+      <recent name="D:\Desktop\Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI\utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f03b60a6-ddde-4a79-8cf9-7033249259c2" name="更改" comment="" />
+      <created>1696252727514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696252727514</updated>
+      <workItem from="1696252728043" duration="2530000" />
+      <workItem from="1696261111531" duration="868000" />
+      <workItem from="1696262025621" duration="1355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Traffic_Sign_Recognition_PyQt5_YOLOv5_GUI$main.coverage" NAME="main 覆盖结果" MODIFIED="1696262811727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
