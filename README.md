@@ -58,7 +58,7 @@ Run `main.py`.
 
 pip install -r requirements.txt
 
-### 注意事项
+### Attention
 1. The project is based on YOLOv5 v6.1
 2. Database connection
 ```python
