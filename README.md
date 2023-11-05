@@ -11,7 +11,7 @@
 
 
 This is a road sign recognition project based on YOLOv5, developed with a PyQt5 interface, YOLOv5 trained model, and MySQL database. The project consists of five modules: parameter initialization, sign recognition, database, data analysis, and image processing(Please refer to the Chinese document for details).
-  ![00013.png](data/doc/00013.png)
+  ![00013.jpg](data/doc/00013.jpg)
 ## Screenshots
 
 * ### Sign Recognition Module
@@ -37,30 +37,43 @@ Run `main.py`.
 
 ### Account and Password
 
-- admin 123456
-- 1 2
-- Modify the main function to enter directly
+Here are the default login credentials:
 
-## Project Modules
+| Username | Password |
+|----------|----------|
+| admin    | 123456   |
+| 1        | 2        |
 
-- `pt` folder: Contains the model(best.pt is Road Sign Recognition model)
-- `main_with` folder: `login.py` (login UI), `win.py` (main UI)
-- `dialog` folder: RTSP pop-up interface
-- `apprcc_rc.py`: Resource file
-- `login_ji.py`: Interface login logic file
-- `run/run-exp52`: Road sign recognition model trained for 300 epochs
-- `utils/tt100k_to_voc-main` folder: JSON to YOLO format converter
--  `result`Save some reasoning files，`run`Save training file
-- Dataset: [TT100k : Traffic-Sign Detection and Classification in the Wild](https://cg.cs.tsinghua.edu.cn/traffic-sign/)
-- Database files: in the `data` folder `-regn_mysql.sql`
+Modify the main function in `main.py` to enter the system directly without authentication.
+
+## Project Structure
+
+- `pt` folder: Contains the YOLOv5 model file `best.pt` for road sign recognition.
+- `main_with` folder: Contains `login.py` for the login UI and `win.py` for the main UI.
+- `dialog` folder: Contains the RTSP pop-up interface.
+- `apprcc_rc.py`: The resource file for the project.
+- `login_ji.py`: Implements the login logic for the UI.
+- `run/run-exp52`: The YOLOv5 road sign recognition model trained for 300 epochs.
+- `utils/tt100k_to_voc-main` folder: Tool for converting JSON annotations to YOLO format.
+- `result`: Folder to save inference results.
+- `run`: Folder to save training logs and outputs.
+- Dataset: Download from [TT100k : Traffic-Sign Detection and Classification in the Wild](https://cg.cs.tsinghua.edu.cn/traffic-sign/).
+- Database files: Located in the `data` folder, see `-regn_mysql.sql` for setup.
 
 ### Install Dependencies
 
+To install the required dependencies, run:
+
+```bash
 pip install -r requirements.txt
+```
 
 ### Attention
-1. The project is based on YOLOv5 v6.1
-2. Database connection
+
+This project uses YOLOv5 v6.1.
+
+For database connections, you need to set up your MySQL database as per the configurations below:
+
 ```python
 def get_db_connection():
     return pymysql.connect(
@@ -74,8 +87,12 @@ There are two identical database links in the code that need to be modified, ple
 
 ## Acknowledgements
 
-- [Converting the TT100K dataset to VOC format and selecting more than 100 images and XMLs for each of the 45 categories using a Python script](https://blog.csdn.net/Hankerchen/article/details/120727299?spm=1001.2014.3001.5502)
-- https://github.com/Javacr/PyQt5-YOLOv5
+- For converting the TT100K dataset to VOC format and selecting more than 100 images and XMLs for each category, see this [CSDN blog post](https://blog.csdn.net/Hankerchen/article/details/120727299?spm=1001.2014.3001.5502).
+- The PyQt5-YOLOv5 integration was inspired by this [GitHub repository](https://github.com/Javacr/PyQt5-YOLOv5).
+
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Ai-trainee/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI&type=Date)](https://star-history.com/#Ai-trainee/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI&Date)
+Track the GitHub star history of this project:
+
+![Star History Chart](https://api.star-history.com/svg?repos=Ai-trainee/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI&type=Date)
+
