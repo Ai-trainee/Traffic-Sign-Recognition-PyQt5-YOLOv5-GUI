@@ -11,7 +11,7 @@
 
 
 This is a road sign recognition project based on YOLOv5, developed with a PyQt5 interface, YOLOv5 trained model, and MySQL database. The project consists of five modules: parameter initialization, sign recognition, database, data analysis, and image processing(Please refer to the Chinese document for details).
-
+  ![00013.png](data/doc/00013.png)
 ## Screenshots
 
 * ### Sign Recognition Module
