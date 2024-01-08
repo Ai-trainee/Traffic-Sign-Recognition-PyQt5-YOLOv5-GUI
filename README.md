@@ -26,16 +26,10 @@ This is a road sign recognition project based on YOLOv5, developed with a PyQt5 
   ![img_4.png](data/doc/img_4.png)
 * ### Login Interface
   ![img_5.png](data/doc/img_5.png)
+  
 
 
-<div align="center">
-    <img src="data/doc/img.png" alt="图片1" width="30%" style="max-width: 300px;">
-    <img src="data/doc/img_1.png" alt="图片1" width="30%" style="max-width: 300px;">
-    <img src="data/doc/img_2.png" alt="图片2" width="30%" style="max-width: 300px;">
-    <img src="data/doc/img_3.png" alt="图片3" width="30%" style="max-width: 300px;">
-    <img src="data/doc/img_3.png" alt="图片1" width="30%" style="max-width: 300px;">
-    <img src="data/doc/img_4.png" alt="图片2" width="30%" style="max-width: 300px;">
-</div>
+
 
 </div>
 
