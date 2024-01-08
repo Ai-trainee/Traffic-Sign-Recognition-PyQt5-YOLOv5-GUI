@@ -44,7 +44,7 @@ To install the required dependencies, run:
 ```bash
 pip install -r requirements.txt
 ```
-
+---
 ## Quick Start
 1. Set the local database link otherwise an error will be reported：report an error：RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
 For database connections, you need to set up your MySQL database as per the configurations below:
@@ -72,6 +72,7 @@ Here are the default login credentials:
 
 Modify the main function in `main.py` to enter the system directly without authentication.
 
+---
 ## Project Structure
 
 - `pt` folder: Contains the YOLOv5 model file `best.pt` for road sign recognition.
