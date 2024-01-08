@@ -30,19 +30,43 @@
 * ### 登录界面
   ![img_5.png](img_5.png)
 
-### Demo
+### 演示视频
 
 [基于YOLOV5的道路标志识别系统](https://www.bilibili.com/video/BV1Ck4y1Y7Bk/?spm_id_from=333.999.0.0&vd_source=40d9cda43378fbc89cd5184e09bf1272)
 
-## 开始
 
-运行`main.py`。
+### 安装依赖
 
-### 账户密码
+pip install -r requirements.txt
 
-- admin 123456
-- 1 2
-- 修改main函数可直接进入
+---
+## 快速入门
+1. 设置本地数据库链接，否则将报错：`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`。对于数据库连接，您需要根据以下配置设置您的MySQL数据库：
+```python
+def get_db_connection():
+    return pymysql.connect(
+        host='localhost',
+        user='root',
+        password='123456',
+        database='traffic_sign_recognition'
+    )
+```
+代码中有两个相同的数据库链接（大约在第111行和第1783行附近），需要修改。检查data文件夹中的数据库SQL文件以设置一个测试数据库，以继续运行程序。
+
+2. 运行 `main.py`。
+
+3. 输入您的账号和密码以登录。
+
+以下是默认的登录凭据：
+
+| 用户名   | 密码     |
+|----------|----------|
+| admin    | 123456   |
+| 1        | 2        |
+
+修改`main.py`中的主函数，以直接进入系统而无需进行身份验证。
+
+---
 
 ## 项目模块
 
@@ -57,24 +81,8 @@
 - 数据集：[TT100k : Traffic-Sign Detection and Classification in the Wild](https://cg.cs.tsinghua.edu.cn/traffic-sign/)
 - 数据库文件：`data`文件夹下`-regn_mysql.sql`
 
-### 安装依赖
 
-pip install -r requirements.txt
 
-### 注意事项
-1、项目基于YOLOv5 v6.1
-
-2、数据库连接
-```python
-def get_db_connection():
-    return pymysql.connect(
-        host='localhost',
-        user='root',
-        password='123456',
-        database='traffic_sign_recognition'
-    )
-```
-代码中有两个相同的数据库链接需要修改，请查看data文件夹下的数据库sql文件建立测试数据库
 
 
 
