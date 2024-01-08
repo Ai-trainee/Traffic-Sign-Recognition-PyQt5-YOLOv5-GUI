@@ -10,7 +10,7 @@
 </p>
 
 
-This is a road sign recognition project based on YOLOv5, developed with a PyQt5 interface, YOLOv5 trained model, and MySQL database. The project consists of five modules: parameter initialization, sign recognition, database, data analysis, and image processing(Please refer to the Chinese document for details).
+This is a road sign recognition project based on YOLOv5, developed with a PyQt5 interface, YOLOv5 trained model, and MySQL database. The project consists of five modules: parameter initialization, sign recognition, database, data analysis, and image processing(Please refer to the Chinese document for details),This project uses YOLOv5 v6.1.
   ![00013.jpg](data/doc/00013.jpg)
 ## Screenshots
 
@@ -27,15 +27,47 @@ This is a road sign recognition project based on YOLOv5, developed with a PyQt5 
 * ### Login Interface
   ![img_5.png](data/doc/img_5.png)
 
+
+<div align="center">
+    <img src="data/doc/img.png" alt="图片1" width="30%" style="max-width: 300px;">
+    <img src="data/doc/img_1.png" alt="图片1" width="30%" style="max-width: 300px;">
+    <img src="data/doc/img_2.png" alt="图片2" width="30%" style="max-width: 300px;">
+    <img src="data/doc/img_3.png" alt="图片3" width="30%" style="max-width: 300px;">
+    <img src="data/doc/img_3.png" alt="图片1" width="30%" style="max-width: 300px;">
+    <img src="data/doc/img_4.png" alt="图片2" width="30%" style="max-width: 300px;">
+</div>
+
+</div>
+
 ### Video Demo
 
 [Road Sign Recognition System Based on YOLOV5](https://www.bilibili.com/video/BV1Ck4y1Y7Bk/?spm_id_from=333.999.0.0&vd_source=40d9cda43378fbc89cd5184e09bf1272)
 
-## Getting Started
+### Install Dependencies
 
-Run `main.py`.
+To install the required dependencies, run:
 
-### Account and Password
+```bash
+pip install -r requirements.txt
+```
+
+## Quick Start
+1. Set the local database link otherwise an error will be reported：report an error：RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+For database connections, you need to set up your MySQL database as per the configurations below:
+```python
+def get_db_connection():
+    return pymysql.connect(
+        host='localhost',
+        user='root',
+        password='123456',
+        database='traffic_sign_recognition'
+    )
+```
+There are two identical database links in the code (around line 111 and line 1783) that need to be modified, check the database sql file in the data folder to set up a test database to continue running the program
+
+2. Run `main.py`.
+
+3. Enter your account and password to log in
 
 Here are the default login credentials:
 
@@ -60,30 +92,7 @@ Modify the main function in `main.py` to enter the system directly without authe
 - Dataset: Download from [TT100k : Traffic-Sign Detection and Classification in the Wild](https://cg.cs.tsinghua.edu.cn/traffic-sign/).
 - Database files: Located in the `data` folder, see `-regn_mysql.sql` for setup.
 
-### Install Dependencies
 
-To install the required dependencies, run:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Attention
-
-This project uses YOLOv5 v6.1.
-
-For database connections, you need to set up your MySQL database as per the configurations below:
-
-```python
-def get_db_connection():
-    return pymysql.connect(
-        host='localhost',
-        user='root',
-        password='123456',
-        database='traffic_sign_recognition'
-    )
-```
-There are two identical database links in the code that need to be modified, please check the database sql file under the data folder to establish the test database
 
 ## Acknowledgements
 
