@@ -2,7 +2,7 @@
 echo Creating the database...
 
 REM Set path to the SQL file
-set SQL_FILE_PATH=regn_mysql.sql
+set SQL_FILE_PATH=data/regn_mysql.sql
 
 REM Database connection details
 set DB_HOST=localhost
