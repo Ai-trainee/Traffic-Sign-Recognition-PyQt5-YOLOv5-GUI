@@ -40,22 +40,36 @@
 pip install -r requirements.txt
 
 ---
-## 快速入门
-1. 设置本地数据库链接，否则将报错：`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`。对于数据库连接，您需要根据以下配置设置您的MySQL数据库：
+## **快速开始**
+
+### 1. **设置数据库**
+
+为了运行应用程序，您需要设置您的 MySQL 数据库。按照以下步骤准备您的数据库：
+
+- **自动数据库创建（可选）**：
+    - 如果您喜欢自动设置，我们提供了一个批处理脚本。运行 **`setup_database.bat`** 脚本来创建数据库。这需要在您的系统上安装并配置 MySQL。
+- **手动数据库创建**：
+    - 或者，您可以在 MySQL 中手动创建数据库。在您的 MySQL 环境中导入并执行 **`data/regn_mysql.sql`** 文件，以设置必要的数据库和表。
+
+### 2. **在代码中配置数据库连接**
+
+设置数据库之后，更新代码中的连接设置；这4个变量在代码的开头，请更改成你本地数据库的身份验证信息；这些身份验证信息再代码中有两处调用(大约第111行和第1783行)
+
 ```python
-def get_db_connection():
-    return pymysql.connect(
-        host='localhost',
-        user='root',
-        password='123456',
-        database='traffic_sign_recognition'
-    )
+# 数据库连接设置作为全局变量
+DB_HOST = 'localhost'    # 数据库主机
+DB_USER = 'root'         # 数据库用户
+DB_PASSWORD = '1234'     # 数据库密码
+DB_NAME = 'traffic_sign_recognition'  # 数据库名
 ```
-代码中有两个相同的数据库链接（大约在第111行和第1783行附近），需要修改。检查data文件夹中的数据库SQL文件以设置一个测试数据库，以继续运行程序。
 
-2. 运行 `main.py`。
+### **关于数据库链接的注意事项**
 
-3. 输入您的账号和密码以登录。
+如果遇到 **`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`** 错误，这对于某些 MySQL 认证方法是必需的。
+
+### 3. 运行 `main.py`。
+
+### 4. 输入您的账号和密码以登录。
 
 以下是默认的登录凭据：
 
@@ -64,7 +78,7 @@ def get_db_connection():
 | admin    | 123456   |
 | 1        | 2        |
 
-修改`main.py`中的主函数，以直接进入系统而无需进行身份验证。
+或者修改`main.py`中的主函数：删除登陆逻辑，以直接进入系统而无需进行身份验证。
 
 ---
 
@@ -75,7 +89,7 @@ def get_db_connection():
 - `dialog`文件夹：rtsp弹出界面
 - `apprcc_rc.py`：资源文件
 - `login_ji.py`：界面登陆逻辑文件
-- `run-exp52`：300轮训练后的道路标志识别模型
+- `data/run/run-exp52`：300轮训练后的道路标志识别模型
 - `utils/tt100k_to_voc-main`文件夹：json转yolo格式
 - `result`保存一些推理文件，`run`保存训练文件
 - 数据集：[TT100k : Traffic-Sign Detection and Classification in the Wild](https://cg.cs.tsinghua.edu.cn/traffic-sign/)

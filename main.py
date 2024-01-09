@@ -5,27 +5,17 @@ import torch
 import torch.backends.cudnn as cudnn
 import os
 import time
-
 from models.experimental import attempt_load
 from utils.datasets import LoadImages, LoadWebcam
 from utils.CustomMessageBox import MessageBox
 from utils.general import check_img_size, check_imshow, non_max_suppression, \
     scale_coords, increment_path
-# from utils.plots import colors, plot_one_box, plot_one_box_PIL
 from utils.plots import Annotator, colors, save_one_box
 from utils.torch_utils import select_device
 from utils.capnums import Camera
 from dialog.rtsp_win import Window
-
 import datetime
-
 from pathlib import Path
-FILE = Path(__file__).resolve()
-ROOT = FILE.parents[0]  # YOLOv5 root directory
-if str(ROOT) not in sys.path:
-    sys.path.append(str(ROOT))  # add ROOT to PATH
-ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  #
-
 from PyQt5.QtGui import QTransform
 from PyQt5.QtWidgets import QHeaderView
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
@@ -43,18 +33,15 @@ from PyQt5.QtCore import QObject
 from PyQt5.QtWidgets import QLineEdit, QVBoxLayout, QLabel, QDialogButtonBox
 from PyQt5.QtGui import QImage, QPixmap
 from PyQt5.QtWidgets import QInputDialog
-
-
-
 from PyQt5.QtWidgets import QApplication, QMainWindow, QDialog
-
-
-
-
 import seaborn as sns
 
 sns.set(style='darkgrid', palette='pastel')
-
+FILE = Path(__file__).resolve()
+ROOT = FILE.parents[0]  # YOLOv5 root directory
+if str(ROOT) not in sys.path:
+    sys.path.append(str(ROOT))  # add ROOT to PATH
+ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  #
 
 visualize = False
 databases = False
@@ -69,10 +56,11 @@ hide_labels=False  # hide labels
 hide_conf=False  # hide confidences
 line_thickness=3  # bounding box thickness (pixels)
 
-
-
-
-
+# Database connection settings as global variables
+DB_HOST = 'localhost'
+DB_USER = 'root'
+DB_PASSWORD = '1234'
+DB_NAME = 'traffic_sign_recognition'
 
 
 #检测线程
@@ -108,12 +96,12 @@ send_percent信号用于发送分析(检测)进度，
 
 
 #数据库录入
-    def get_db_connection(self):
+    def get_db_connection(self, db_host=DB_HOST, db_user=DB_USER, db_password=DB_PASSWORD, db_name=DB_NAME):
         return pymysql.connect(
-            host='localhost',
-            user='root',
-            password='123456',
-            database='traffic_sign_recognition'
+            host=DB_HOST,
+            user=DB_USER,
+            password=DB_PASSWORD,
+            database=DB_NAME
         )
     def insert_detection_result_to_database(self, sign_type, sign_count, additional_info):
         with self.get_db_connection() as connection:
@@ -1773,19 +1761,12 @@ class MainWindow(QMainWindow, Ui_mainWindow):
         button.clicked.connect(self.on_browse_result_folder_button_clicked)
         # print("on_browse_result_folder_button_clickedproject:",project)
 
-
-
-
-
-
-
-
-    def get_db_connection(self):
+    def get_db_connection( self, host=DB_HOST, user=DB_USER, password=DB_PASSWORD, database=DB_NAME):
         return pymysql.connect(
-            host='localhost',
-            user='root',
-            password='123456',
-            database='traffic_sign_recognition'
+            host=DB_HOST,
+            user=DB_USER,
+            password=DB_PASSWORD,
+            database=DB_NAME
         )
 
     def draw_bar_chart(self, data):

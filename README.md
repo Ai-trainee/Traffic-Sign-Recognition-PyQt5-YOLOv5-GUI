@@ -45,23 +45,35 @@ To install the required dependencies, run:
 pip install -r requirements.txt
 ```
 ---
-## Quick Start
-1. Set the local database link otherwise an error will be reported：report an error：RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
-For database connections, you need to set up your MySQL database as per the configurations below:
+## **Quick Start**
+
+### 1. **Setting Up the Database**
+
+To run the application, you need to set up your MySQL database. Follow these steps to prepare your database:
+
+- **Automatic Database Creation (Optional)**:
+    - If you prefer an automated setup, a batch script is provided. Run the **`setup_database.bat`** script to create the database. This requires MySQL to be installed and configured on your system.
+- **Manual Database Creation**:
+    - Alternatively, you can manually create the database in MySQL. Import and execute the **`data/regn_mysql.sql`** file in your MySQL environment to set up the necessary database and tables.
+
+### 2. **Configuring Database Connection in Code**
+After setting up the database, update the connection Settings in the code; These 4 variables in the beginning of the code, please change your local database authentication information; There are two calls in the recasting of this authentication information (approximately lines 111 and 1783)
+
 ```python
-def get_db_connection():
-    return pymysql.connect(
-        host='localhost',
-        user='root',
-        password='123456',
-        database='traffic_sign_recognition'
-    )
+# Database connection settings as global variables
+DB_HOST = 'localhost'    # Database host
+DB_USER = 'root'         # Database user
+DB_PASSWORD = '1234'     # Database password
+DB_NAME = 'traffic_sign_recognition'  # Database name
 ```
-There are two identical database links in the code (around line 111 and line 1783) that need to be modified, check the database sql file in the data folder to set up a test database to continue running the program
 
-2. Run `main.py`.
+### **Note on Cryptography Package**
 
-3. Enter your account and password to log in
+If you encounter a **`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`**, This is necessary for certain MySQL authentication methods.
+
+### 3. Run `main.py`.
+
+### 4. Enter your account and password to log in
 
 Here are the default login credentials:
 
@@ -70,7 +82,7 @@ Here are the default login credentials:
 | admin    | 123456   |
 | 1        | 2        |
 
-Modify the main function in `main.py` to enter the system directly without authentication.
+Or modify the main function in main.py: remove the logon logic to enter the system directly without authentication.
 
 ---
 ## Project Structure
@@ -80,7 +92,7 @@ Modify the main function in `main.py` to enter the system directly without authe
 - `dialog` folder: Contains the RTSP pop-up interface.
 - `apprcc_rc.py`: The resource file for the project.
 - `login_ji.py`: Implements the login logic for the UI.
-- `run/run-exp52`: The YOLOv5 road sign recognition model trained for 300 epochs.
+- `data/run/run-exp52`: The YOLOv5 road sign recognition model trained for 300 epochs.
 - `utils/tt100k_to_voc-main` folder: Tool for converting JSON annotations to YOLO format.
 - `result`: Folder to save inference results.
 - `run`: Folder to save training logs and outputs.
