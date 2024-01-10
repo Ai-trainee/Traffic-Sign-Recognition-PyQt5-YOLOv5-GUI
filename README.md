@@ -36,7 +36,8 @@ This is a road sign recognition project based on YOLOv5, developed with a PyQt5 
 
 ### Video Demo
 
-[Road Sign Recognition System Based on YOLOV5](https://www.bilibili.com/video/BV1Ck4y1Y7Bk/?spm_id_from=333.999.0.0&vd_source=40d9cda43378fbc89cd5184e09bf1272)
+[YOUTUBE DEMO: Road Sign Recognition System Based on YOLOV5](https://youtu.be/qoHaXvp_Gxk?si=xIAm1UXCLTjR8kUD)
+[BiliBili Demo: Road Sign Recognition System Based on YOLOV5](https://www.bilibili.com/video/BV1Ck4y1Y7Bk/?spm_id_from=333.999.0.0&vd_source=40d9cda43378fbc89cd5184e09bf1272)
 
 ### Install Dependencies
 
@@ -69,7 +70,9 @@ DB_NAME = 'traffic_sign_recognition'  # Database name
 
 ### **Note on Cryptography Package**
 
-If you encounter a **`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`**, This is because the database authentication has gone wrong and the database needs to be properly created and the password entered.
+If you encounter a **`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`**, 
+This is because the database authentication has gone wrong and the database needs to be properly created and the password entered.
+This error will also be reported if you do not have the mysql service started locally, so make sure your mysql service is started.
 
 ### 3. Run `main.py`.
 

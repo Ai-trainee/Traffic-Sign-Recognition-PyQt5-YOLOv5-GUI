@@ -66,7 +66,7 @@ DB_NAME = 'traffic_sign_recognition'  # 数据库名
 ### **关于数据库链接的注意事项**
 
 如果遇到 **`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`** 错误，这是因为数据库身份验证出错了，需要正确地创建数据库并输入密码。
-
+并且如果你本地没有启动mysql服务，也会报这个错，所以请确保你的mysql服务已经启动。
 ### 3. 运行 `main.py`。
 
 ### 4. 输入您的账号和密码以登录。

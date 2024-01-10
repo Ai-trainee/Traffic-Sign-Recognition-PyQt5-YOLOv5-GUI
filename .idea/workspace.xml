@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f03b60a6-ddde-4a79-8cf9-7033249259c2" name="更改" comment="--">
+      <change beforePath="$PROJECT_DIR$/.idea/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/doc/README_cn.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/README_cn.md" afterDir="false" />
@@ -120,7 +122,10 @@
       <workItem from="1704811482802" duration="3115000" />
       <workItem from="1704863966587" duration="2899000" />
       <workItem from="1704869713795" duration="74000" />
-      <workItem from="1704871606268" duration="652000" />
+      <workItem from="1704871606268" duration="662000" />
+      <workItem from="1704890086406" duration="1606000" />
+      <workItem from="1704894596663" duration="163000" />
+      <workItem from="1704901928535" duration="1144000" />
     </task>
     <task id="LOCAL-00001" summary="调整的项目结构，修改了README，完善了数据库链接">
       <option name="closed" value="true" />
@@ -170,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704871909975</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="--">
+      <option name="closed" value="true" />
+      <created>1704872270968</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704872270968</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +207,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="--" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Traffic_Sign_Recognition_PyQt5_YOLOv5_GUI$main.coverage" NAME="main 覆盖结果" MODIFIED="1704814175191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Traffic_Sign_Recognition_PyQt5_YOLOv5_GUI$main.coverage" NAME="main 覆盖结果" MODIFIED="1704894741551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
