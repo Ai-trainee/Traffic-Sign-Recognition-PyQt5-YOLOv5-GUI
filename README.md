@@ -31,7 +31,7 @@ This is a road sign recognition project based on YOLOv5, developed with a PyQt5 
 
 
 
-</div>
+
 
 ### Video Demo
 
@@ -69,7 +69,7 @@ DB_NAME = 'traffic_sign_recognition'  # Database name
 
 ### **Note on Cryptography Package**
 
-If you encounter a **`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`**, This is necessary for certain MySQL authentication methods.
+If you encounter a **`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`**, This is because the database authentication has gone wrong and the database needs to be properly created and the password entered.
 
 ### 3. Run `main.py`.
 
@@ -99,8 +99,7 @@ Or modify the main function in main.py: remove the logon logic to enter the syst
 - Dataset: Download from [TT100k : Traffic-Sign Detection and Classification in the Wild](https://cg.cs.tsinghua.edu.cn/traffic-sign/).
 - Database files: Located in the `data` folder, see `-regn_mysql.sql` for setup.
 
-
-
+> Since this project was done while I was learning YOLOv5 (quite a while ago), the main logic is concentrated in the main.py file. In other words, I didn't modularize different functions, and I didn't have a clear division of module structure. Mainly because I am too lazy, ha ha :smile:. If you're interested, you can modularize it so it's clearer.
 ## Acknowledgements
 
 - For converting the TT100K dataset to VOC format and selecting more than 100 images and XMLs for each category, see this [CSDN blog post](https://blog.csdn.net/Hankerchen/article/details/120727299?spm=1001.2014.3001.5502).

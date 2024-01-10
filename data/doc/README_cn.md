@@ -65,7 +65,7 @@ DB_NAME = 'traffic_sign_recognition'  # 数据库名
 
 ### **关于数据库链接的注意事项**
 
-如果遇到 **`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`** 错误，这对于某些 MySQL 认证方法是必需的。
+如果遇到 **`RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods`** 错误，这是因为数据库身份验证出错了，需要正确地创建数据库并输入密码。
 
 ### 3. 运行 `main.py`。
 
@@ -96,7 +96,7 @@ DB_NAME = 'traffic_sign_recognition'  # 数据库名
 - 数据库文件：`data`文件夹下`-regn_mysql.sql`
 
 
-
+> 由于这个项目是在我学习YOLOv5时完成的（已经过了很长一段时间），因此主要的逻辑代码都集中在main.py文件中。换句话说，我没有将不同功能模块化，没有进行模块结构的清晰划分。主要是由于我太懒了，嘻嘻 :smile:。如果您有兴趣，可以将其模块化，这样它就会更加清晰。
 
 
 
