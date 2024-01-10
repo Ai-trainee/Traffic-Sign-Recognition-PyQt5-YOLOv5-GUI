@@ -99,7 +99,7 @@ Or modify the main function in main.py: remove the logon logic to enter the syst
 - Dataset: Download from [TT100k : Traffic-Sign Detection and Classification in the Wild](https://cg.cs.tsinghua.edu.cn/traffic-sign/).
 - Database files: Located in the `data` folder, see `-regn_mysql.sql` for setup.
 
-> Since this project was done while I was learning YOLOv5 (quite a while ago), the main logic is concentrated in the main.py file. In other words, I didn't modularize different functions, and I didn't have a clear division of module structure. Mainly because I am too lazy, ha ha :smile:. If you're interested, you can modularize it so it's clearer.
+> Since this project was done while I was learning YOLOv5 (quite a while ago), the main logic is concentrated in the main.py file. In other words, I didn't modularize different functions, and I didn't have a clear division of module structure. Now I want to divide it into modules, but I'm too lazy,  ha ha :smile:. If you're interested, you can modularize it so it's clearer.
 ## Acknowledgements
 
 - For converting the TT100K dataset to VOC format and selecting more than 100 images and XMLs for each category, see this [CSDN blog post](https://blog.csdn.net/Hankerchen/article/details/120727299?spm=1001.2014.3001.5502).
