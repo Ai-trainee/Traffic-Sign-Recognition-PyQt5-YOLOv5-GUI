@@ -57,8 +57,7 @@ To run the application, you need to set up your MySQL database. Follow these ste
     - Alternatively, you can manually create the database in MySQL. Import and execute the **`data/regn_mysql.sql`** file in your MySQL environment to set up the necessary database and tables.
 
 ### 2. **Configuring Database Connection in Code**
-After setting up the database, update the connection Settings in the code; These 4 variables in the beginning of the code, please change your local database authentication information; There are two calls in the recasting of this authentication information (approximately lines 111 and 1783)
-
+After setting up the database, update the connection Settings in the code to change the authentication information for your local database (these four variables are at the beginning of the code, around line 59, as follows); P.S. These authentication messages are called twice in the code (around lines 111 and 1783)
 ```python
 # Database connection settings as global variables
 DB_HOST = 'localhost'    # Database host

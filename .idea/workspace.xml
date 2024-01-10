@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f03b60a6-ddde-4a79-8cf9-7033249259c2" name="更改" comment="--">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/doc/README_cn.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/doc/README_cn.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +112,7 @@
       <workItem from="1696262025621" duration="1703000" />
       <workItem from="1704811391519" duration="74000" />
       <workItem from="1704811482802" duration="3115000" />
-      <workItem from="1704863966587" duration="962000" />
+      <workItem from="1704863966587" duration="1591000" />
     </task>
     <task id="LOCAL-00001" summary="调整的项目结构，修改了README，完善了数据库链接">
       <option name="closed" value="true" />
@@ -135,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704814625701</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="--">
+      <option name="closed" value="true" />
+      <created>1704864957385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704864957385</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
