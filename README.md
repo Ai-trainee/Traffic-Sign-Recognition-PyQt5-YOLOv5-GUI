@@ -10,16 +10,33 @@
 </p>
 
 
-This is a road sign recognition project based on YOLOv5, developed with a PyQt5 interface, YOLOv5 trained model, and MySQL database. The project consists of five modules: parameter initialization, sign recognition, database, data analysis, and image processing(Please refer to the Chinese document for details),This project uses YOLOv5 v6.1.
+This system is a road sign recognition application leveraging YOLOv5🚀 😊. It employs a MySQL database 💽, PyQt5 for the interface design 🎨, PyTorch deep learning framework, and TensorRT for acceleration ⚡. Additionally, it incorporates CSS styles 🌈.
 
- ![00013.jpg](data/doc/logo0.jpg)
+The system comprises five key modules:
+
+1. System Login Module 🔑: Responsible for user authentication.
+2. Initialization Parameter Module 📋: Provides settings for initializing YOLOv5 model parameters.
+3. Sign Recognition Module 🔍: The core functionality responsible for recognizing road signs and updating the database with the results.
+4. Database Module 💾: Consists of two sub-modules - basic database operations and data analysis.
+5. Image Processing Module 🖼️: Handles the processing of individual images and associated data.
+
+The entire system is designed to support various data input methods and model switching. Additionally, it offers image enhancement techniques such as mosaic and mixup 📈.
+
+![00013.jpg](data/doc/logo0.jpg)
 ## Screenshots
 
 * ### Sign Recognition Module
+`The three checkboxes in the lower left corner are results save, start database entry, and model visual analysis.`
+
   ![img.png](data/doc/img.png)
 * ### Image Processing and Data Augmentation Module
-  ![img_1.png](data/doc/img_1.png)
+
+`The right column is a batch image data enhancement with custom parameters (using the checked data increment method for all images in a folder with a certain probability)`
+
+![img_1.png](data/doc/img_1.png)
 * ### Parameter Initialization Module
+`模型基本参数勾选配置`
+
   ![img_2.png](data/doc/img_2.png)
 * ### Database Module
   ![img_3.png](data/doc/img_3.png)
