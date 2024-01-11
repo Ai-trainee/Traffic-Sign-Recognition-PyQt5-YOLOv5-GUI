@@ -35,7 +35,7 @@ The entire system is designed to support various data input methods and model sw
 
 ![img_1.png](data/doc/img_1.png)
 * ### Parameter Initialization Module
-`模型基本参数勾选配置`
+`Model basic parameters Select Configure`
 
   ![img_2.png](data/doc/img_2.png)
 * ### Database Module
