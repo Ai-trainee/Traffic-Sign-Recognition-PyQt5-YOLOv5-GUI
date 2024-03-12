@@ -125,6 +125,11 @@ Or modify the main function in main.py: remove the logon logic to enter the syst
 - For converting the TT100K dataset to VOC format and selecting more than 100 images and XMLs for each category, see this [CSDN blog post](https://blog.csdn.net/Hankerchen/article/details/120727299?spm=1001.2014.3001.5502).
 - The PyQt5-YOLOv5 integration was inspired by this [GitHub repository](https://github.com/Javacr/PyQt5-YOLOv5).
 
+## Contact Us
+> WeChat：AIGCSD
+> email: 2545197649@qq.com
+> Official Accounts：AI进修生
+
 ## Star History
 
 Track the GitHub star history of this project:
