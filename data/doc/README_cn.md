@@ -110,6 +110,15 @@ DB_NAME = 'traffic_sign_recognition'  # 数据库名
 
 - [将TT100K数据集转成VOC格式，并且用Python脚本选出45类超过100张的图片和XML](https://blog.csdn.net/Hankerchen/article/details/120727299?spm=1001.2014.3001.5502)
 - https://github.com/Javacr/PyQt5-YOLOv5
+
+## 联系我们
+> 微信：AIGC004
+> 
+> 邮箱: 2545197649@qq.com
+> 
+> 公众号：AI进修生
+
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Ai-trainee/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI&type=Date)](https://star-history.com/#Ai-trainee/Traffic-Sign-Recognition-PyQt5-YOLOv5-GUI&Date)
